@@ -1,0 +1,166 @@
+h1
+{
+	color:#265;
+	font-family:正黑體;
+	font-size:50pt;
+	letter-spacing:30pt;
+	line-height:200%;
+}
+
+h2
+{
+	color:#000;
+	font-family:正黑體;
+	font-size:30pt;
+	letter-spacing:2pt;
+	line-height:100%;
+}
+
+h3
+{
+	color:#000;
+	font-family:正黑體;
+	font-size:20pt;
+	letter-spacing:3pt;
+	line-height:80%;
+}
+
+.shadowbox
+{
+	width:700px;
+	height:300px;
+	margin:80px auto;
+	border:1px solid #333;
+	box-shadow:8px 8px 5px #444;
+	padding:20px 12px;
+	background-image:linear-gradient(180deg, #fff, #ddd 40%, #aaa);
+}
+
+.shadowbox:hover
+{
+	background:pink;
+}
+
+.shadowbox2
+{
+	width:400px;
+	height:100px;
+	margin:0px auto;
+	border:1px solid #333;
+	box-shadow:8px 8px 5px #444;
+	padding:20px 12px;
+	background-image:linear-gradient(180deg, #fff, #ddd 40%, #aaa);
+}
+
+.marq
+{
+	position:fixed;
+}
+
+.cont
+{
+	font-size:50pt;
+	font-family:正黑體;
+	color:brown;
+	text-align:left;
+	vertical-align:left;
+	padding:0px;
+}
+
+.cont:hover
+{
+	color:blue;
+}
+.cont2
+{
+	text-align:center;
+	vertical-align:middle;
+	padding:0px;
+}
+
+.cont3
+{
+	text-align:center;
+	vertical-align:middle;
+	padding:50px;
+	color:#000;
+	font-family:正黑體;
+	font-size:20pt;
+	letter-spacing:15pt;
+	line-height:80%;
+	width:1000px;
+	height:50px;
+	background:aquamarine;
+	margin:0 auto;
+	float:center;
+}
+
+.cont3:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+
+.cont4
+{
+	font-size:20pt;
+	font-family:正黑體;
+	color:brown;
+	text-align:left;
+	vertical-align:middle;
+	padding:0px;
+}
+
+.cont5
+{
+	font-size:20pt;
+	font-family:正黑體;
+	color:green;
+	text-align:left;
+	vertical-align:middle;
+	padding:0px;
+}
+
+.cont6
+{
+	font-size:20pt;
+	font-family:正黑體;
+	color:fuchsia;
+	text-align:left;
+	vertical-align:middle;
+	padding:0px;
+}
+
+.cont7
+{
+	font-size:20pt;
+	font-family:正黑體;
+	color:red;
+	text-align:left;
+	vertical-align:middle;
+	padding:0px;
+}
+
+A:link
+{
+	color:#a34;
+	text-decoration:none;
+}
+
+A:visited
+{
+	color:#966;
+	text-decoration:none;
+}
+
+A:active
+{
+	color:#465;
+	text-decoration:none;
+}
+
+A:hover
+{
+	color:red;
+	border-bottom:1px solid #000;
+}
