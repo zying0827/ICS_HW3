@@ -13,7 +13,7 @@
 			function display_ct()
 			{
 				var now=new Date();
-				var time=now.getMonth()+1+"-"+now.getDate()+"-"+now.getFullYear()+" "+now.getHours()+":"+now.getMinutes()+":"+now.getSeconds();
+				var time=now.getMonth()+1+"-"+now.getDate()+"-"+now.getFullYear()+" "+(now.getHours()<10?"0":"")+now.getHours()+":"+(now.getMinutes()<10?"0":"")+now.getMinutes()+":"+(now.getSeconds()<10?"0":"")+now.getSeconds();
 				document.getElementById('ct').innerHTML=time;
 				display_c();
 			}
